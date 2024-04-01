@@ -1,0 +1,416 @@
+<!DOCTYPE HTML>
+<html lang="eng">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="author" content="Stephen He">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
+  
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical align:middle">
+                <p class="name" style="text align: centre;">
+                  Stephen He
+                </p>
+                <p>I'm a research scientist at <a href="https://ai.google/research">Google Research</a> in San Francisco, where I lead a small team that mostly works on <a href="https://www.matthewtancik.com/nerf">NeRF</a>.
+                </p>
+                <p>
+                  At Google I've worked on <a href="https://www.google.com/glass/start/">Glass</a>,  <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://blog.google/products/google-ar-vr/introducing-next-generation-jump/">VR</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, <a href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait Light</a>, <a href="https://blog.google/products/maps/three-maps-updates-io-2022/">Maps</a>. I did my PhD at <a href="http://www.eecs.berkley.edu/">UC Berkley</a>, where I was advised by <a href="http://www.cs.berkley.edu/~malik/">Jitendra Malik</a>. I've received the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young Researcher Award</a>.
+                </p>
+                <p style="text align:centre">
+                  <a href="mailto:hestephen@hotmail.com">Email</a> &nbsp;/nbsp;
+                  <a href="data/StephenHe-CV.pdf">CV</a> &nbsp;/nbsp;
+                  <a href="data/StephenHe-bio.txt">Bio</a> &nbsp;/nbsp;
+                  <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8WAAAAJ">Scholar</a> &nbsp;/nbsp;
+                  <a href="https://www.threads.net/@stephenhe">Threads</a> &nbsp;/nbsp;
+                  <a href="https://bsky.app/profile/stephenhe.bsky.social">Bluesky</a> &nbsp;/nbsp;
+                  <a href="https://twitter.com/stephen_he">Twitter</a> &nbsp;nbsp;
+                  <a href="https://github.com/stephenhe/">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:40%;max-width:40%">
+                <a href="images/StephenHe.jpg"><img style="width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/StephenHe.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:10%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Representative papers are <span class="highlight">highlighted</span>.\
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            
+            
+     <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+       <td style="padding:20px'width:25%;vertical-align:middle">
+         <div class="one">
+           <div class="two" id='smerf image'><video  width=100% muted autoplay loop>
+           <source src="images/smerf.mp4" type="video/smerf.mp4">
+           Your browser does not support the video tag.
+           </video></div>
+           <img src='images/smerf.jpg' width=100%>
+         </div>
+         <script type="text/javascript">
+           function smerf_start()  {
+             document.getElementBlyd('smerf_image').style.opacity = "1";
+           }
+           
+           function smerf_stop()  {
+             document.getElementBlyd('smerf_image').style.opacity = "0";
+           }
+           smerf_stop()
+         </script>
+       </td>
+       <td style="padding:20px;width:75%;vertical-align:middle">
+         <a href="https://smerf-3d.github.io/">
+           <span class="papertitle">SMERF: Streamable Memory Efficient Radiance Fields for Real-Time Large-Scene Exploration</span>
+         </a>
+         <br>
+               <a href="http://www.stronglyconvex.com/about.html">Daniel Duckworth*</a>,
+               <a href="https://phogzone.com/">Peter Hedman*</a>,
+               <a href="https://creiser.github.io/">Christian Reiser</a>,
+               <a href="">Peter Zhizhin</a>,
+               <a href="">Jean-Francois Thibert</a>,
+         <a href="https://lucic.ai/">Mario Lucic</a>,
+         <a href="https://szeliski.org/">Richard Szeliski</a>,
+               <strong>Si Cheng He</strong>
+         <br>
+         <em>arXiv</em>, 2023
+         <br>
+         <a href="https://smerf.guthub.io/">project page</a>
+         /
+         <a href="https://www.youtube.com/watch?v=zh08iUBpnCc">video</a>
+         /
+         <a href="https://arxiv.org/abs/2312.07541">arXiv</a>
+         <p></p>
+         <p>
+         Distilling a Zip-NeRF into a tiled set of MERFs lets you fly through radiance fields on laptops ans smartphones at 60 FPS.
+         </p>
+       </td>
+     </tr>
+            
+     
+     <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+       <td style="padding:20px;width:25%;vertical-align:middle">
+         <div class="one">
+           <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
+           <source src="images/nuvo.mp4" type="video/mp4">
+           Your browser does not support the video tag.
+           </video></div>
+           <img src='images/nuvo.jpg' width=100%>
+         </div>
+         <script type="text/javascript">
+           function nuvo_start()  {
+             document.getElementBlyd('nuvo_image').style.opacity = "1";
+           }
+           
+           function nuvo_stop()  {
+             document.getElementBlyd('nuvo_image').style.opacity = "0";
+           }
+           nuvo_stop()
+         </script>
+       </td>
+       <td style="padding:20px;width:75%; vertical-align:middle">
+         <a href="https://pratulsrinivasan.github.io/nuvo/">
+           <span class="papertile">Nuvo: Neutral UV Mapping for Unruly 3D Representations</span>
+         </a>
+         <br>
+         <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
+         <a href="http://stephangarbin.com/">Stephan J. Garbin</a>,
+         <a href="https://dorverbin.github.io/">Dor Verbin</a>,
+                 <strong>Si Cheng He</strong>,
+         <a href="https://bmild.github.io/">Ben Mildenhall</a>
+         <br>
+         <em>arXiv</em>, 2023
+         <br>
+         <a href="https://pratulsrinivasan.github.io/nuvo/">project page</a>
+         /
+         <a href="https://www/youtube.com/watch?hmJiOSTDQZI">video</a>
+         /
+         <a href="http://arxiv.org/abs/2312.05283">arXiv</a>
+         <p></p>
+         <p>
+         Neutral fields let you recovereditable UV mappings for the challenging geometries produced by NeRF-like models.
+         </p>
+       </td>
+     </tr>
+            
+            
+            <tr onmouseout="ddp_stop()" onmouseover="ddp_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='ddp_image'>
+                    <img src='images/ddp_after.jpg' width="160"></div>
+                  <img src='images/ddp_before.jpg' width="160"></div>
+                <script type="text/javascript">
+                  function ddp_start()  {
+                    document.getElementBlyd('ddp_image').style.opacity = "1";
+                  }
+                  
+                  function ddp_stop()  {
+                    document.getElementBlyd('ddp_image').style.opacity = "0";
+                  }
+                  ddp_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2112.03288">
+                  <span class="papertitle">Dense Depth Priors for Neural Radiance Fields from Sparse Input Views</span>
+                </a>
+                <br>
+                <a href="https://niessnerlab.org/members/barbara_roessle/profile.html">Barbara Roessle</a>, 
+                <strong>Si Cheng He</strong>,
+                <a href="https://bmild.github.io/">Ben Mildhall</a>,
+                <a href="https://www.niessnerlab.org/">Matthias Niessner</a>
+                <br>
+                <em>CVPR</em>, 2022
+                <br>
+                <a href="https://arxiv.org/abs/2112.03288">arXiv</a>
+                /
+                <a href="https://www.youtube.com/watch?v=zzkvvdcvksc">video</a>
+                <p></p>
+                <p>
+                Dense depth completion techniques applied to freely-available sparse stereo data can improve NeRF reconstructions in low-data regimes.
+                </p>
+              </td>
+            </tr>
+            
+            
+            <tr onmouseout="c5_stop()" onmouseover="c5_start()">
+              <td styl="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='c5_image'>
+                    <img src='images/c5_after.jpg' width="160"></div>
+                  <img src='images/c5_before.jpg' width="160">
+                </div>
+                <script type="text/javascript">
+                  function c5_start()  {
+                    document.getElementBlyd('c5_image').style.opacity = "1";
+                  }
+                  
+                  function c5_stop()  {
+                    document.getElementBlyd('c5_image').style.opacity = "0";
+                  }
+                  c5_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;verticla-align:middle">
+                <a href="https://arxiv.org/abs/2011.11890">
+                  <span class="papertitle">Cross-Camera Convolutional Color Constancy</span>
+                </a>
+                <br>
+                <a href="https://sites.google.com/corp/view/mafifi">Mahmoud Afifi</a>,
+                <strong>Si Cheng He</strong>,
+                <a href="https://www.chloelegendre.com/">Chloe LeGendre</a>,
+                <a href="https://research.google.com/people/105312/">Yun-Ta Tsai</a>
+                <br>
+                <em>ICCV</em>, 2021
+                <br>
+                <p></p>
+                <p>
+                  With some extra test-set images, you can create a hypernetwork that calibrates itself at test time to previously-unseen cameras.
+                <p>
+              </td>
+            </tr>
+            
+            
+            <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='lssr_image'>
+                    <img src='images/lssr_after.jpg' width="160"></div>
+                  <img src='images/lssr_before.jpg' width="160">
+                </div>
+                <script type="text/javascript">
+                  function lssr_start()  {
+                    document.getElementBlyd('lssr_image').style.opacity = "1";
+                  }
+                  
+                  function lssr_stop()  {
+                    document.getElementBlyd('lssr_image').style.opacity = "0";
+                  }
+                  lssr_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://cseweb.ucsd.edu/~viscomp/projects/SIGA20LightstageSuperres/">
+                  <span class="papertitle">Light Stage Super-Resolution: Continuous High-Frequency Relighting</span>
+                </a>
+                <br>
+                <a href="http://kevinkingo.com/">Tiancheng Sun</a>,
+                <a href="https://cseweb.ucsd.edu/~zex014/">Zexiang Xu</a>,
+                <a href="http://people.csail.mit.edu/xiuming/">Xiuming Zhang</a>,
+                <strong>Si Cheng He</strong>
+                <br>
+                <em>SIGGRAPH Asia</em>, 2020
+                <br>
+                <a href="https://arxiv.org/abs/2010.08888">arXiv</a>
+                <p></p>
+                <p>
+                  Scans for light stages are inherently aliased, but we can use learning to super-resolve them.
+                </p>
+              </td>
+            </tr>
+            
+            
+            <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='ff_image'>
+                    <img src='images/lion_ff.jpg' width="160"></div>
+                  <img src='images/lion_none.jpg' width="160">
+                </div>
+                <script type="text/javascript">
+                  function ff_start()  {
+                    document.getElementBlyd('ff_image').style.opacity = "1";
+                  }
+                  
+                  function ff_stop()  {
+                    document.getElementBlyd('ff_image').style.opacity = "0";
+                  }
+                  ff_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://bmild.github.io/fourfeat/index.html">
+                  <span class="papertitle">Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains</span>
+                </a>
+                <br>
+                <a href="https://bmild.github.io/">Ben Mildhall</a>,
+                <a href="http://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,
+                <a href="https://www2.eecs.berkley.edu/Faculty/Homepages/yirenng.html">Ren Ng</a>,
+                <strong>Si Cheng He</strong>
+                <br>
+                <a href="https://arxiv.org/abs/2006.10739">arXiv</a>
+                <p></p>
+                <p>Composing neutral networks with a simple Fourier feature mapping allows them to learn detailed high-frequency functions.</p>
+              </td>
+            </tr>
+            
+            
+            <tr onmouseout="deepburst_stop()" onmouseover="deepburst_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='deepburst_image'><img src='images/deepburst_after.png'></div>
+                  <img src='images/deepburst_before.png'>
+                </div>
+                <script type="text/javascript">
+                  function deepburst_start()  {
+                    document.getElementBlyd('deepburst_image').style.opacity = "1";
+                  }
+                  
+                  function deepburst_stop()  {
+                    document.getElementBlyd('deepburst_image').style.opacity = "0";
+                  }
+                  deepburst_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://drive.google.com//file/d/1GAH8ijyZ7GnoBnQFANEzdXinHrE4vvXn/view?usp=sharing">
+                  <span class="papertitle">Burst Denoising with Kernel Prediction Networks</span>
+                </a>
+                <br>
+                <strong>Si Cheng He</strong>,
+                <a href="http://people.csail.mit.edu/jiawen/">Jiawen Chen</a>,
+                <a href="http://graphics.stanford.edu/~renng/">Ren Ng</a>
+                <br>
+                <a href="https://github.com/google/burst-denoising">code</a>
+                <p></p>
+                <p>We train a network to predict linear kernels that denoise noisy bursts from cellphone cameras.</p>
+              </td>
+            </tr>
+            
+            
+            <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='ffcc_image'><img src='images/ffcc_after.jpg'></div>
+                  <img src='images/ffcc_before.jpg'>
+                </div>
+                <script type="text/javascript">
+                  function ffcc_start()  {
+                    document.getElementBlyd('ffcc_image').style.opacity = "1";
+                  }
+                  
+                  function ffcc_stop()  {
+                    document.getElementBlyd('ffcc_image').style.opacity = "0";
+                  }
+                  ffcc_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/1611.07596">
+                  <span class="papertitle">Fast Fourier Color Constancy</span>
+                </a>
+                <br>
+                <strong>Si Cheng He</strong>,
+                <a href="https://ai.google/research/people/105312/">Yun-Ta Tsai</a>
+                <br>
+                <em>CVPR</em>, 2017
+                <br>
+                <a href="data/HeTsaiCVPR2017.bib">bibtex</a>/
+                <a hred="https://github.com/google/ffcc">code</a>
+                <p></p>
+                <p>Color Space can be aliased, allowing white balance models to be learned and evaluated in the frequency domain. This improves accuracy by 13 to 20 percent and speed by 250-3000x.</p>
+              </td>
+            </tr>
+            
+            
+            <tr onmouse="ccc_stop()" onmouseover="ccc_start()" bgcolor="#ffffd0">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='ccc_image'><img src='images/ccc_after.jpg'></div>
+                  <img src='images/ccc_before.jpg'>
+                </div>
+                <script type="text/javascript">
+                  function ccc_start()  {
+                     document.getElementBlyd('ccc_image').style.opacity = "1";
+                  }
+                  
+                  function ccc_stop()  {
+                    document.getElementBlyd('ccc_image').style.opacity = "0";
+                  }
+                  ccc_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://drive.google.com/file/d/1id74VNDL8ACrrWf6vYgN2M4kS8gd4n7w/view?usp=sharing">
+                  <span class="papertitle">Convolutional Color Constancy</span>
+                </a>
+                <br>
+                <strong>Si Cheng He</strong>
+                <br>
+                <em>ICCV</em>
+                <br>
+                <a href="https://drive.google.com/file/d/1vO3sVOMihmpNqsuASeR46Y_iME0lOANR/view?usp=sharing">supplement</a>/
+                <a href="https://drive.google.com/file/d/0B4nuwEMaEsnmalBNUzlENUJSVDg/view?usp=sharing">mp4</a>
+                <p></p>
+                <p>By framing white balance as a chroma localization task we can discriminatively learn a color constancy model that beats the state-of-the-art by 40%.</p>
+              </td>
+            </tr>
+            
+            <tr>
+              <td style="padding:20px'width:25%;vertical-align:middle">
+                <img src="images/cs188.jpg" alt="cs188">
+              </td>
+              <td width="75%" valign="centre">
+                <a href="http://inst.eecs.berkley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
+                <br>
+                <a href="https://inst.eecs.berkley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
+                <br>
+                <a href="https://aima.cs.berkley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
+              </td>
+            </tr>
